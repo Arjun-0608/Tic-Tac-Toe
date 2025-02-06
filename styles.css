@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.308);
+    color: #ffffff;
+    overflow: hidden;
+}
+
+img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+    top: 3%;
+    left: 2%;
+}
+
+header {
+    padding: 0px;
+    font-size: 1.3rem;
+    color: #010101;
+    text-decoration: underline;
+}
+
+.para {
+    padding: 33vmin 0vmin 0vmin 0vmin;
+    height: 75vh;
+    font-size: 3rem;
+    background-color: #a79f9f;
+    box-sizing: border-box;
+    color: blueviolet;
+    font-family: "Arista Pro";
+    font-weight: 600;
+}
+
+.start {
+    padding: 3px;
+    margin: 1px;
+    font-size: 4vmin;
+    height: 8vh;
+    width: 15vh;
+    border-radius: 13px;
+    background-color: pink;
+    color: #ffffff;
+}
+
+#reset{
+    padding: 3px;
+    margin: 1px;
+    font-size: 4vmin;
+    height: 8vh;
+    width: 15vh;
+    border-radius: 13px;
+    background-color: pink;
+    color: #ffffff;
+}
+
+.start:hover, #reset:hover {
+    box-shadow: 0px 0px 6px rgb(92, 51, 58);
+    transform: scale(0.98);
+}
+
+main {
+    margin: 1vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#game {
+    margin: 1vh;
+    padding: 1vh;
+    height: 60vh;
+    width: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 1px;
+    margin-right: 1.2vh;
+    font-size: 13vmin;
+    font-weight: 500;
+    height: 17vh;
+    width: 17vh;
+    border-radius: 1vh;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid beige;
+
+}
+
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid rgb(211, 19, 26);
+    height: 16.5vh;
+    width: 16.5;
+}
+
+.hidden {
+    height: 0px;
+    width: 0px;
+}
